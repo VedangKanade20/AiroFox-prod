@@ -4,7 +4,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@layer base {
+  body {
+    @apply bg-brand-white text-brand-slate antialiased;
+  }
+}
+
 @theme inline {
+  --color-brand-navy: #08244c;
+  --color-brand-orange: #ff7a00;
+  --color-brand-white: #f8fafc;
+  --color-brand-slate: #334155;
+  --color-brand-border: #e2e8f0;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
