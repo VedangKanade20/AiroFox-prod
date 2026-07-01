@@ -59,6 +59,7 @@ export default function AboutPage() {
         </section>
 
         {/* STORY */}
+        {/* STORY */}
         <section className="py-24">
           <Container>
             <div className="rounded-3xl bg-brand-navy text-white p-10 md:p-16 shadow-2xl">
